@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4746A011C8803AB009820F8 /* project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4746A011C8803AB009820F8 /* project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4746A041C8803AB009820F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4746A061C8803AB009820F8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		E4746A081C8803AB009820F8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		E47469F81C8803AA009820F8 = {
 			isa = PBXGroup;
 			children = (
-				E4746A031C8803AB009820F8 /* project1 */,
+				E4746A031C8803AB009820F8 /* project3 */,
 				E4746A021C8803AB009820F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		E4746A021C8803AB009820F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4746A011C8803AB009820F8 /* project1.app */,
+				E4746A011C8803AB009820F8 /* project3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4746A031C8803AB009820F8 /* project1 */ = {
+		E4746A031C8803AB009820F8 /* project3 */ = {
 			isa = PBXGroup;
 			children = (
 				E4746A1A1C880707009820F8 /* Content */,
@@ -85,6 +85,7 @@
 				E4746A0F1C8803AC009820F8 /* LaunchScreen.storyboard */,
 				E4746A121C8803AC009820F8 /* Info.plist */,
 			);
+			name = project3;
 			path = project1;
 			sourceTree = "<group>";
 		};
@@ -108,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4746A001C8803AB009820F8 /* project1 */ = {
+		E4746A001C8803AB009820F8 /* project3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4746A151C8803AC009820F8 /* Build configuration list for PBXNativeTarget "project1" */;
+			buildConfigurationList = E4746A151C8803AC009820F8 /* Build configuration list for PBXNativeTarget "project3" */;
 			buildPhases = (
 				E47469FD1C8803AB009820F8 /* Sources */,
 				E47469FE1C8803AB009820F8 /* Frameworks */,
@@ -120,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = project1;
+			name = project3;
 			productName = project1;
-			productReference = E4746A011C8803AB009820F8 /* project1.app */;
+			productReference = E4746A011C8803AB009820F8 /* project3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E47469FC1C8803AA009820F8 /* Build configuration list for PBXProject "project1" */;
+			buildConfigurationList = E47469FC1C8803AA009820F8 /* Build configuration list for PBXProject "project3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -154,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4746A001C8803AB009820F8 /* project1 */,
+				E4746A001C8803AB009820F8 /* project3 */,
 			);
 		};
 /* End PBXProject section */
@@ -306,8 +307,8 @@
 				INFOPLIST_FILE = project1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhany.project1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhany.project3;
+				PRODUCT_NAME = project3;
 			};
 			name = Debug;
 		};
@@ -319,15 +320,15 @@
 				INFOPLIST_FILE = project1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dhany.project1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhany.project3;
+				PRODUCT_NAME = project3;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E47469FC1C8803AA009820F8 /* Build configuration list for PBXProject "project1" */ = {
+		E47469FC1C8803AA009820F8 /* Build configuration list for PBXProject "project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4746A131C8803AC009820F8 /* Debug */,
@@ -336,13 +337,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4746A151C8803AC009820F8 /* Build configuration list for PBXNativeTarget "project1" */ = {
+		E4746A151C8803AC009820F8 /* Build configuration list for PBXNativeTarget "project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4746A161C8803AC009820F8 /* Debug */,
 				E4746A171C8803AC009820F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
