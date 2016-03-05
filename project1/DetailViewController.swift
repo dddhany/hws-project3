@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 class DetailViewController: UIViewController {
 
@@ -52,8 +53,18 @@ class DetailViewController: UIViewController {
     }
     
     func shareTapped() {
+        //normal share
+        /*
         let vc = UIActivityViewController(activityItems: [detailImageView.image!], applicationActivities: [])
         vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        */
+        //facebook/twitter share
+        let vc = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+        vc.setInitialText("Look at this great picture!")
+        vc.addImage(detailImageView.image!)
+        vc.addURL(NSURL(string: "http://www.photolib.noaa.gov/nssl"))
+        
+        
         presentViewController(vc, animated: true, completion: nil)
     }
 
